@@ -1,0 +1,588 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* First section: Text content */
+.care {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Align items vertically in the center */
+    padding: 0px 20px 0px 70px;
+    background-color: rgba(228, 235, 255, 1);
+    height: 101px;
+    /* width: 1440px; */
+    font-family: 'Arial Black', serif;
+}
+
+.main-title {
+    font-size: 50px;
+    height: 65px;
+    width: 65px;
+    color: rgba(12, 44, 65, 1);
+    font-weight: bold;
+    /* Add some space between the button and the title */
+}
+
+.stacked {
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: rgb(107, 11, 202);
+}
+
+.stacked span {
+    line-height: 1;
+}
+
+.btns {
+    padding: 13px 18px;
+    gap: 8px;
+    background-color: rgba(106, 87, 182, 1);
+    /* width: 136px;
+    height: 100px; */
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font: Helvetica Neue;
+    font-size: 14px;
+    color: white;
+}
+
+.btns p {
+    font: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.container {
+    display: flex;
+    /* width: 1440px;
+    height: 2166.28px; */
+    justify-content: space-between;
+    /* Align content and images side by side */
+    align-items: center;
+    padding: 32px 75px 32px 75px;
+    gap: 24px;
+    flex: 1;
+    background-color: rgba(228, 235, 255, 1);
+    /* Light background color */
+}
+
+.text {
+    /* width: 633px;
+    height: 496.28px; */
+    gap: 20px;
+}
+
+.book {
+    font-size: 64px;
+    line-height: 88.96px;
+    width: 517px;
+    height: 178px;
+    font-family: 'TT Ramillas Trl';
+    color: rgba(12, 44, 65, 1);
+}
+
+.container p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.29px;
+    color: rgba(75, 106, 128, 1);
+    gap: 13.87px;
+    height: 67px;
+    width: 423px;
+    font-family: Arial;
+}
+
+.buttons {
+    padding: 16.64px 22.19px 16.64px 22.19px;
+    gap: 13.87px;
+    border-radius: 44.38px;
+    background-color: rgba(106, 87, 182, 1);
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 33.29px;
+    font-weight: 700;
+    border: none;
+    margin-top: 12px;
+}
+
+/* Brand Section: Recognized By */
+.brand {
+    margin: 40px 0px 20px 15px;
+    font-size: 15px;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 24px;
+}
+
+.brand p {
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 24px;
+
+}
+
+.brand img {
+    display: inline-block;
+    width: 562.76px;
+    height: 79.62;
+
+}
+
+
+
+/* Image Section */
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17.66px;
+    padding: 22.07px 0px 22.07px;
+
+    border-radius: 17.66px;
+    /* height: 298px;
+    width: 633px; */
+}
+
+/* Specific sizes for the first, middle, and last images */
+.images img:first-child,
+.images img:last-child {
+    width: 165.08px;
+    height: 217px;
+}
+
+.images img:nth-child(2) {
+    width: 210px;
+    height: 288px;
+}
+
+
+.logo {
+    background-color: rgba(255, 255, 255, 1);
+    ;
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+}
+
+.logo h2 {
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+    color: rgba(75, 106, 128, 1);
+
+}
+
+.logo img {
+    display: inline-block;
+    /* Display images inline */
+    width: 120px;
+    /* Set a uniform width for all images */
+    height: auto;
+    /* Maintain the aspect ratio */
+    margin: 0 20px;
+    /* Add equal spacing between the images */
+    vertical-align: middle;
+    /* Align images vertically to the middle */
+    transition: transform 0.3s ease;
+    gap: 10px;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+    /* Add a hover effect for interactivity */
+}
+
+.second {
+    padding: 10px;
+    background-color: rgba(243, 243, 243, 1);
+
+
+}
+
+.works {
+    display: flex;
+    /* Use flexbox layout */
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    /* Prevent wrapping on larger screens */
+    /* Space out the items */
+}
+
+.head {
+    margin: 0px 0px 10px 0px;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(106, 87, 182, 1);
+    ;
+    line-height: 24px;
+    font-family: 'TT Ramillas Trl', sans-serif;
+}
+
+.head span {
+    color: rgba(30, 30, 30, 1);
+    ;
+    font-family: TT Ramillas Trl;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.title {
+    /* Center the title */
+    font-size: 40px;
+    /* Make the title larger */
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-family: 'TT Ramillas Trl', sans-serif;
+
+
+    /* Space below the title */
+}
+
+.step {
+    flex: 1;
+    /* Allow each step to grow equally */
+    min-width: 250px;
+    /* Set a minimum width for each step */
+    /* Margin around each step */
+    padding: 10px;
+    /* Padding inside each step */
+    /* Include padding and border in width */
+    /* Use flexbox to align items within the step */
+    flex-direction: row;
+    /* Align items in a row */
+
+    margin-right: 20px;
+    /* Add margin between paragraph and image */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Center align items vertically */
+}
+
+.step p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(75, 106, 128, 1);
+
+    /* Add margin on the sides of the paragraph */
+}
+
+.step img {
+    width: 312px;
+    /* Set a fixed width for images */
+    /* Maintain the aspect ratio */
+    height: 218px;
+    border-radius: 8px;
+    /* Limit the maximum height of the image */
+}
+
+.third {
+    background: rgba(223, 243, 239, 1);
+
+    padding: 70px;
+    gap: 52px;
+
+}
+
+.third h1 {
+    font-family: TT Ramillas Trl;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55.6px;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+.third p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgba(75, 106, 128, 1);
+
+
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columns */
+    grid-gap: 20px;
+    /* Gap between the columns and rows */
+}
+
+.benefit {
+    display: flex;
+    /* Align items in a row */
+
+    border-bottom: 1px solid rgba(210, 210, 210, 1);
+    padding: 15px;
+    text-align: left;
+}
+
+.benefit img {
+    width: 52px;
+    /* Set a fixed size for the images */
+    height: 52px;
+    margin-right: 10px;
+    /* Space between image and heading */
+}
+
+.benefit h3 {
+    font-family: TT Ramillas Trl;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(12, 44, 65, 1);
+
+
+}
+
+/* Responsive design for mobile screens up to 768px wide */
+@media (max-width: 768px) {
+    .care {
+        justify-content: space-between;
+        align-items: center;
+        /* Align items vertically in the center */
+
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text p {
+        font-size: 25px;
+    }
+
+    /* Ensure the text section and images stack on top of each other */
+
+    /* Ensure the images remain inline */
+    .images {
+        justify-content: space-around;
+        flex-direction: row;
+        /* Keep the images in a row */
+    }
+
+    /* Adjust image sizes for mobile */
+    .images img:first-child,
+    .images img:last-child {
+        width: 100px;
+        height: auto;
+    }
+
+    .images img:nth-child(2) {
+        width: 150px;
+        height: auto;
+    }
+
+    .works {
+        flex-direction: column;
+        margin: 1px;
+        /* Stack items vertically on mobile */
+
+    }
+
+    .step {
+        flex-direction: column;
+        /* Stack content vertically in steps for mobile */
+        align-items: flex-start;
+        /* Align items to the start */
+        width: 100%;
+        /* Full width on smaller screens */
+    }
+
+    .step img {
+        max-width: 100%;
+        /* Responsive image width on mobile */
+    }
+
+    .step p {
+        margin-bottom: 4px;
+        width: 100%;
+        /* Make the paragraph take up the full width */
+        /* Add margin below the paragraph */
+    }
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns on tablet */
+    }
+
+    .testimonials {
+        flex-direction: column;
+        gap: 20px;
+        /* Stack testimonials in a single column */
+    }
+
+    .testimonial-footer img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .testimonial {
+        text-align: center;
+    }
+
+    .btns,
+    .buttons {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+        padding: 10px 15px;
+        /* Adjust button padding for mobile */
+    }
+
+}
+
+.fourth {
+    padding: 70px 70px;
+    background-color: #f9f9f9;
+}
+
+.fourth h1 {
+    font-family: TT Ramillas Trl;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41.7px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fourth p {
+    margin-bottom: 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(75, 106, 128, 1);
+
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    /* Align the testimonials in a row */
+    padding: 10px ;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    
+
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    position: relative;
+}
+
+.testimonial .quote {
+    text-align: left;
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1; /* Reduced line height */
+     /* Adjust the margin to decrease space below the quote */
+
+}
+
+.testimonial-text {
+    text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 0;
+    color: rgba(85, 85, 85, 1);
+    /* Space between quote and paragraph */
+    line-height: 1.5; /* Improved line height for readability */
+}
+
+.testimonial-footer {
+    display: flex;
+    align-items: center;
+    /* Align image and text vertically */
+}
+
+.testimonial-footer img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 50%;
+    /* Make image round */
+}
+
+.testimonial-info {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.stars {
+    margin-bottom: 0; /* Remove the space below stars */
+}
+.author {
+    font-size: 0.9em;
+    /* Make the text smaller */
+    font-weight: normal;
+    color: #555;
+    margin-top: -30px; 
+}
+
+/* arrow (1) 1 */
+.arrow {
+    margin-top: 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer {
+    padding: 24px 0px 24px 0px;
+    gap: 10px;
+    opacity: 0px;
+    color: rgba(228, 235, 255, 1);
+    ;
+    /* Adjust the font size */
+}
+
+.footer p {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+    ;
+    margin: 0;
+    /* Remove any default margin from the paragraph */
+}
